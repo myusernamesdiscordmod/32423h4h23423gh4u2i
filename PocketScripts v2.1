@@ -11952,4 +11952,26 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "PixelImt🍀",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+Tab:AddButton({
+	Name = "Kokohub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kodabkr/KokoHub/main/%7C"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "MadbukScripts",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/Scripts/main/Obfuscated%20pixel%20inc.lua"))()
+
+  	end    
+})
 OrionLib:Init()
