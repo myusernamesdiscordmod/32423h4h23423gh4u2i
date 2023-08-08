@@ -11974,4 +11974,26 @@ Tab:AddButton({
 
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "CombatWR😈",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+Tab:AddButton({
+	Name = "NossLock",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Hydra",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+
+  	end    
+})
 OrionLib:Init()
