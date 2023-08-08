@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "PocketScripts v2.6", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionPocketScripts"})
+local Window = OrionLib:MakeWindow({Name = "PocketScripts v3.0", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionPocketScripts"})
 local Tab = Window:MakeTab({
 	Name = "Flingpeople💨",
 	Icon = "rbxassetid://4483345998",
@@ -134,6 +134,18 @@ Tab:AddButton({
 	Name = "InfiniteYield",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "NossLock",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "KokoHub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kodabkr/KokoHub/main/%7C"))()
   	end    
 })
 Tab:AddButton({
